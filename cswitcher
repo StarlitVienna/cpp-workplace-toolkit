@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo rm -rvf ~/.local/share/nvim/plugged/
+cp ~/arch-dots/nvim/init.vim ~/.config/nvim/init.vim
+nvim --headless +PlugInstall +qall
+
